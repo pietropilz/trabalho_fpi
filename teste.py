@@ -58,7 +58,7 @@ def image_quilting_basic(texture, out_size=(256, 256), patch_size=64, overlap=16
     return output
 
 
-texture = load_texture("data/hector.jpeg")
+texture = load_texture("data/grama.jpg")
 # image_quilting_basic(imagem original, tamanho de saída, tamanho do bloco, sobreposição)
 result = image_quilting_basic(texture, out_size=(1024, 1024), patch_size=64, overlap=16) 
 save_image(result, "results/resultado_quilting.jpg")
